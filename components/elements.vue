@@ -59,7 +59,7 @@ const levelUpGood = (event) => {
     addScoreDiv(scoreElementGood);
     setmoney(getmoney() - 50) //retire la somme dépenser pour acheter l'élément
     setProgress(getProgress() - 5) //retire un peu de pollution
-    setProgressHapiness(getProgressHapiness() + 30) //améliore l'hapiness car on améliore la condition de vie
+    setProgressHapiness(getProgressHapiness() + 3) //améliore l'hapiness car on améliore la condition de vie
     scoreElementBad.textContent = scoreBad;
     scoreElementBad.style.color = "#00ff00";
     scoreElementBad.style.fontWeight = "bold";

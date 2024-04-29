@@ -5,7 +5,7 @@ let moneyDisplay: HTMLElement;
 let progress: number = 0;
 let progressDiv: HTMLElement;
 let progressDivHapiness: HTMLElement;
-let progressHapiness: number = 99;
+let progressHapiness: number = 50;
 let achat: number = 0;
 let scoreDiv:HTMLElement[] = new Array(); 
 
